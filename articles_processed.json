@@ -704,6 +704,1238 @@
           "isSubset": false
         }
       ]
+    },
+    "/doi/abs/10.1111/ajps.12297": {
+      "attributes": {
+        "authors": [
+          {
+            "name": "Jeffery J. Mondak",
+            "url": "https://onlinelibrary.wiley.com/action/doSearch?ContribAuthorStored=Mondak%2C+Jeffery+J"
+          },
+          {
+            "name": "Jon Hurwitz",
+            "url": "https://onlinelibrary.wiley.com/action/doSearch?ContribAuthorStored=Hurwitz%2C+Jon"
+          },
+          {
+            "name": "Mark Peffley",
+            "url": "https://onlinelibrary.wiley.com/action/doSearch?ContribAuthorStored=Peffley%2C+Mark"
+          },
+          {
+            "name": "Paul Testa",
+            "url": "https://onlinelibrary.wiley.com/action/doSearch?ContribAuthorStored=Testa%2C+Paul"
+          }
+        ],
+        "full_text": "https://onlinelibrary-wiley-com.libproxy.utdallas.edu/doi/full/10.1111/ajps.12297",
+        "issue": "/toc/15405907/2017/61/4",
+        "publish_date": "28 February 2017",
+        "title": "The Vicarious Bases of Perceived Injustice"
+      },
+      "data": [
+        {
+          "Columns": [
+            {
+              "ColName": "caseid"
+            },
+            {
+              "ColName": "weight"
+            },
+            {
+              "ColName": "validzip"
+            },
+            {
+              "ColName": "police_dv1"
+            },
+            {
+              "ColName": "police_dv2"
+            },
+            {
+              "ColName": "police_dv"
+            },
+            {
+              "ColName": "court_dv1"
+            },
+            {
+              "ColName": "court_dv2"
+            },
+            {
+              "ColName": "court_dv"
+            },
+            {
+              "ColName": "pc_pol_unfair"
+            },
+            {
+              "ColName": "pc_pol_rude"
+            },
+            {
+              "ColName": "pc_ct_unfair"
+            },
+            {
+              "ColName": "pc_ct_rude"
+            },
+            {
+              "ColName": "disc_count"
+            },
+            {
+              "ColName": "d1_race"
+            },
+            {
+              "ColName": "d1_pol"
+            },
+            {
+              "ColName": "d1_ct"
+            },
+            {
+              "ColName": "d2_race"
+            },
+            {
+              "ColName": "d2_pol"
+            },
+            {
+              "ColName": "d2_ct"
+            },
+            {
+              "ColName": "d3_race"
+            },
+            {
+              "ColName": "d3_pol"
+            },
+            {
+              "ColName": "d3_ct"
+            },
+            {
+              "ColName": "per_white"
+            },
+            {
+              "ColName": "per_black"
+            },
+            {
+              "ColName": "per_latino"
+            },
+            {
+              "ColName": "per_asian"
+            },
+            {
+              "ColName": "per_other"
+            },
+            {
+              "ColName": "polnet_mn_nz"
+            },
+            {
+              "ColName": "ctnet_mn_nz"
+            },
+            {
+              "ColName": "polnet_mn"
+            },
+            {
+              "ColName": "ctnet_mn"
+            },
+            {
+              "ColName": "disc_pos_pol"
+            },
+            {
+              "ColName": "pol_pos_mn"
+            },
+            {
+              "ColName": "disc_neg_pol"
+            },
+            {
+              "ColName": "pol_neg_mn"
+            },
+            {
+              "ColName": "disc_pos_ct"
+            },
+            {
+              "ColName": "ct_pos_mn"
+            },
+            {
+              "ColName": "disc_neg_ct"
+            },
+            {
+              "ColName": "ct_neg_mn"
+            },
+            {
+              "ColName": "disc_neut_pol"
+            },
+            {
+              "ColName": "disc_neut_ct"
+            },
+            {
+              "ColName": "race"
+            },
+            {
+              "ColName": "race.f"
+            },
+            {
+              "ColName": "white"
+            },
+            {
+              "ColName": "black"
+            },
+            {
+              "ColName": "latino"
+            },
+            {
+              "ColName": "asian"
+            },
+            {
+              "ColName": "age"
+            },
+            {
+              "ColName": "female01"
+            },
+            {
+              "ColName": "education"
+            },
+            {
+              "ColName": "married"
+            },
+            {
+              "ColName": "fullem"
+            },
+            {
+              "ColName": "relig_imp"
+            },
+            {
+              "ColName": "church_atd"
+            },
+            {
+              "ColName": "pid"
+            },
+            {
+              "ColName": "pidDKNA01"
+            },
+            {
+              "ColName": "income_with_PNS"
+            },
+            {
+              "ColName": "PNS_income01"
+            },
+            {
+              "ColName": "total_population"
+            },
+            {
+              "ColName": "Pop4Q"
+            },
+            {
+              "ColName": "bl_nw01"
+            }
+          ],
+          "Dimensions": {
+            "ColumnCount": 62,
+            "RowCount": 1524
+          },
+          "FileName": "ajpsdata",
+          "FileType": "rda",
+          "Models": [
+            {
+              "DependentVariable": "polnet_mn_nz",
+              "EvaluationMetric": "rms",
+              "Goal": "prediction",
+              "Name": "Table 2 Column 1",
+              "Predictors": [
+                {
+                  "VarTransformation": "white"
+                },
+                {
+                  "VarTransformation": "asian"
+                },
+                {
+                  "VarTransformation": "latino"
+                }
+              ],
+              "StatisticalModel": "linear regression"
+            },
+            {
+              "DependentVariable": "polnet_mn_nz",
+              "EvaluationMetric": "rms",
+              "Goal": "prediction",
+              "Name": "Table 2 Column 2",
+              "Predictors": [
+                {
+                  "VarTransformation": "white"
+                },
+                {
+                  "VarTransformation": "asian"
+                },
+                {
+                  "VarTransformation": "latino"
+                },
+                {
+                  "VarTransformation": "age"
+                },
+                {
+                  "VarTransformation": "female01"
+                },
+                {
+                  "VarTransformation": "education"
+                },
+                {
+                  "VarTransformation": "married"
+                },
+                {
+                  "VarTransformation": "fullem"
+                },
+                {
+                  "VarTransformation": "relig_imp"
+                },
+                {
+                  "VarTransformation": "church_atd"
+                },
+                {
+                  "VarTransformation": "pid"
+                },
+                {
+                  "VarTransformation": "pidDKNA01"
+                },
+                {
+                  "VarTransformation": "income_with_PNS"
+                },
+                {
+                  "VarTransformation": "PNS_income01"
+                },
+                {
+                  "VarTransformation": "Pop4Q"
+                },
+                {
+                  "VarTransformation": "disc_count"
+                }
+              ],
+              "StatisticalModel": "linear regression"
+            },
+            {
+              "DependentVariable": "polnet_mn_nz",
+              "EvaluationMetric": "rms",
+              "Goal": "prediction",
+              "Name": "Table 2 Column 3",
+              "Predictors": [
+                {
+                  "VarTransformation": "white"
+                },
+                {
+                  "VarTransformation": "asian"
+                },
+                {
+                  "VarTransformation": "latino"
+                },
+                {
+                  "VarTransformation": "age"
+                },
+                {
+                  "VarTransformation": "female01"
+                },
+                {
+                  "VarTransformation": "education"
+                },
+                {
+                  "VarTransformation": "married"
+                },
+                {
+                  "VarTransformation": "fullem"
+                },
+                {
+                  "VarTransformation": "relig_imp"
+                },
+                {
+                  "VarTransformation": "church_atd"
+                },
+                {
+                  "VarTransformation": "pid"
+                },
+                {
+                  "VarTransformation": "pidDKNA01"
+                },
+                {
+                  "VarTransformation": "income_with_PNS"
+                },
+                {
+                  "VarTransformation": "PNS_income01"
+                },
+                {
+                  "VarTransformation": "Pop4Q"
+                },
+                {
+                  "VarTransformation": "disc_count"
+                },
+                {
+                  "VarTransformation": "pc_pol_rude"
+                },
+                {
+                  "VarTransformation": "pc_pol_unfair"
+                }
+              ],
+              "StatisticalModel": "linear regression"
+            },
+            {
+              "DependentVariable": "ctnet_mn_nz",
+              "EvaluationMetric": "rms",
+              "Goal": "prediction",
+              "Name": "Table 2 Column 4",
+              "Predictors": [
+                {
+                  "VarTransformation": "white"
+                },
+                {
+                  "VarTransformation": "asian"
+                },
+                {
+                  "VarTransformation": "latino"
+                }
+              ],
+              "StatisticalModel": "linear regression"
+            },
+            {
+              "DependentVariable": "ctnet_mn_nz",
+              "EvaluationMetric": "rms",
+              "Goal": "prediction",
+              "Name": "Table 2 Column 5",
+              "Predictors": [
+                {
+                  "VarTransformation": "white"
+                },
+                {
+                  "VarTransformation": "asian"
+                },
+                {
+                  "VarTransformation": "latino"
+                },
+                {
+                  "VarTransformation": "age"
+                },
+                {
+                  "VarTransformation": "female01"
+                },
+                {
+                  "VarTransformation": "education"
+                },
+                {
+                  "VarTransformation": "married"
+                },
+                {
+                  "VarTransformation": "fullem"
+                },
+                {
+                  "VarTransformation": "relig_imp"
+                },
+                {
+                  "VarTransformation": "church_atd"
+                },
+                {
+                  "VarTransformation": "pid"
+                },
+                {
+                  "VarTransformation": "pidDKNA01"
+                },
+                {
+                  "VarTransformation": "income_with_PNS"
+                },
+                {
+                  "VarTransformation": "PNS_income01"
+                },
+                {
+                  "VarTransformation": "Pop4Q"
+                },
+                {
+                  "VarTransformation": "disc_count"
+                }
+              ],
+              "StatisticalModel": "linear regression"
+            },
+            {
+              "DependentVariable": "ctnet_mn_nz",
+              "EvaluationMetric": "rms",
+              "Goal": "prediction",
+              "Name": "Table 2 Column 6",
+              "Predictors": [
+                {
+                  "VarTransformation": "white"
+                },
+                {
+                  "VarTransformation": "asian"
+                },
+                {
+                  "VarTransformation": "latino"
+                },
+                {
+                  "VarTransformation": "age"
+                },
+                {
+                  "VarTransformation": "female01"
+                },
+                {
+                  "VarTransformation": "education"
+                },
+                {
+                  "VarTransformation": "married"
+                },
+                {
+                  "VarTransformation": "fullem"
+                },
+                {
+                  "VarTransformation": "relig_imp"
+                },
+                {
+                  "VarTransformation": "church_atd"
+                },
+                {
+                  "VarTransformation": "pid"
+                },
+                {
+                  "VarTransformation": "pidDKNA01"
+                },
+                {
+                  "VarTransformation": "income_with_PNS"
+                },
+                {
+                  "VarTransformation": "PNS_income01"
+                },
+                {
+                  "VarTransformation": "Pop4Q"
+                },
+                {
+                  "VarTransformation": "disc_count"
+                },
+                {
+                  "VarTransformation": "pc_pol_rude"
+                },
+                {
+                  "VarTransformation": "pc_pol_unfair"
+                }
+              ],
+              "StatisticalModel": "linear regression"
+            },
+            {
+              "DependentVariable": "police_dv",
+              "EvaluationMetric": "rms",
+              "Goal": "prediction",
+              "Name": "Table 3 Column 1",
+              "Predictors": [
+                {
+                  "VarTransformation": "pc_pol_rude"
+                },
+                {
+                  "VarTransformation": "pc_pol_unfair"
+                },
+                {
+                  "VarTransformation": "white"
+                },
+                {
+                  "VarTransformation": "asian"
+                },
+                {
+                  "VarTransformation": "latino"
+                },
+                {
+                  "VarTransformation": "age"
+                },
+                {
+                  "VarTransformation": "female01"
+                },
+                {
+                  "VarTransformation": "education"
+                },
+                {
+                  "VarTransformation": "married"
+                },
+                {
+                  "VarTransformation": "fullem"
+                },
+                {
+                  "VarTransformation": "relig_imp"
+                },
+                {
+                  "VarTransformation": "church_atd"
+                },
+                {
+                  "VarTransformation": "pid"
+                },
+                {
+                  "VarTransformation": "pidDKNA01"
+                },
+                {
+                  "VarTransformation": "income_with_PNS"
+                },
+                {
+                  "VarTransformation": "PNS_income01"
+                },
+                {
+                  "VarTransformation": "Pop4Q"
+                }
+              ],
+              "StatisticalModel": "linear regression"
+            },
+            {
+              "DependentVariable": "police_dv",
+              "EvaluationMetric": "rms",
+              "Goal": "prediction",
+              "Name": "Table 3 Column 2",
+              "Predictors": [
+                {
+                  "VarTransformation": "pc_pol_rude"
+                },
+                {
+                  "VarTransformation": "pc_pol_unfair"
+                },
+                {
+                  "VarTransformation": "polnet_mn"
+                },
+                {
+                  "VarTransformation": "disc_count"
+                },
+                {
+                  "VarTransformation": "white"
+                },
+                {
+                  "VarTransformation": "asian"
+                },
+                {
+                  "VarTransformation": "latino"
+                },
+                {
+                  "VarTransformation": "age"
+                },
+                {
+                  "VarTransformation": "female01"
+                },
+                {
+                  "VarTransformation": "education"
+                },
+                {
+                  "VarTransformation": "married"
+                },
+                {
+                  "VarTransformation": "fullem"
+                },
+                {
+                  "VarTransformation": "relig_imp"
+                },
+                {
+                  "VarTransformation": "church_atd"
+                },
+                {
+                  "VarTransformation": "pid"
+                },
+                {
+                  "VarTransformation": "pidDKNA01"
+                },
+                {
+                  "VarTransformation": "income_with_PNS"
+                },
+                {
+                  "VarTransformation": "PNS_income01"
+                },
+                {
+                  "VarTransformation": "Pop4Q"
+                }
+              ],
+              "StatisticalModel": "linear regression"
+            },
+            {
+              "DependentVariable": "police_dv",
+              "EvaluationMetric": "rms",
+              "Goal": "prediction",
+              "Name": "Table 3 Column 3",
+              "Predictors": [
+                {
+                  "VarTransformation": "pc_pol_rude"
+                },
+                {
+                  "VarTransformation": "pc_pol_unfair"
+                },
+                {
+                  "VarTransformation": "polnet_mn"
+                },
+                {
+                  "VarTransformation": "disc_count"
+                },
+                {
+                  "VarTransformation": "white"
+                },
+                {
+                  "VarTransformation": "asian"
+                },
+                {
+                  "VarTransformation": "latino"
+                },
+                {
+                  "VarTransformation": "age"
+                },
+                {
+                  "VarTransformation": "female01"
+                },
+                {
+                  "VarTransformation": "education"
+                },
+                {
+                  "VarTransformation": "married"
+                },
+                {
+                  "VarTransformation": "fullem"
+                },
+                {
+                  "VarTransformation": "relig_imp"
+                },
+                {
+                  "VarTransformation": "church_atd"
+                },
+                {
+                  "VarTransformation": "pid"
+                },
+                {
+                  "VarTransformation": "pidDKNA01"
+                },
+                {
+                  "VarTransformation": "income_with_PNS"
+                },
+                {
+                  "VarTransformation": "PNS_income01"
+                },
+                {
+                  "VarTransformation": "Pop4Q"
+                }
+              ],
+              "StatisticalModel": "linear regression"
+            },
+            {
+              "DependentVariable": "police_dv",
+              "EvaluationMetric": "rms",
+              "Goal": "prediction",
+              "Name": "Table 3 Column 4",
+              "Predictors": [
+                {
+                  "VarTransformation": "polnet_mn"
+                },
+                {
+                  "VarTransformation": "disc_count"
+                },
+                {
+                  "VarTransformation": "white"
+                },
+                {
+                  "VarTransformation": "asian"
+                },
+                {
+                  "VarTransformation": "latino"
+                },
+                {
+                  "VarTransformation": "age"
+                },
+                {
+                  "VarTransformation": "female01"
+                },
+                {
+                  "VarTransformation": "education"
+                },
+                {
+                  "VarTransformation": "married"
+                },
+                {
+                  "VarTransformation": "fullem"
+                },
+                {
+                  "VarTransformation": "relig_imp"
+                },
+                {
+                  "VarTransformation": "church_atd"
+                },
+                {
+                  "VarTransformation": "pid"
+                },
+                {
+                  "VarTransformation": "pidDKNA01"
+                },
+                {
+                  "VarTransformation": "income_with_PNS"
+                },
+                {
+                  "VarTransformation": "PNS_income01"
+                },
+                {
+                  "VarTransformation": "Pop4Q"
+                }
+              ],
+              "StatisticalModel": "linear regression"
+            },
+            {
+              "DependentVariable": "court_dv",
+              "EvaluationMetric": "rms",
+              "Goal": "prediction",
+              "Name": "Table 3 Column 5",
+              "Predictors": [
+                {
+                  "VarTransformation": "pc_pol_rude"
+                },
+                {
+                  "VarTransformation": "pc_pol_unfair"
+                },
+                {
+                  "VarTransformation": "white"
+                },
+                {
+                  "VarTransformation": "asian"
+                },
+                {
+                  "VarTransformation": "latino"
+                },
+                {
+                  "VarTransformation": "age"
+                },
+                {
+                  "VarTransformation": "female01"
+                },
+                {
+                  "VarTransformation": "education"
+                },
+                {
+                  "VarTransformation": "married"
+                },
+                {
+                  "VarTransformation": "fullem"
+                },
+                {
+                  "VarTransformation": "relig_imp"
+                },
+                {
+                  "VarTransformation": "church_atd"
+                },
+                {
+                  "VarTransformation": "pid"
+                },
+                {
+                  "VarTransformation": "pidDKNA01"
+                },
+                {
+                  "VarTransformation": "income_with_PNS"
+                },
+                {
+                  "VarTransformation": "PNS_income01"
+                },
+                {
+                  "VarTransformation": "Pop4Q"
+                }
+              ],
+              "StatisticalModel": "linear regression"
+            },
+            {
+              "DependentVariable": "court_dv",
+              "EvaluationMetric": "rms",
+              "Goal": "prediction",
+              "Name": "Table 3 Column 6",
+              "Predictors": [
+                {
+                  "VarTransformation": "pc_pol_rude"
+                },
+                {
+                  "VarTransformation": "pc_pol_unfair"
+                },
+                {
+                  "VarTransformation": "polnet_mn"
+                },
+                {
+                  "VarTransformation": "disc_count"
+                },
+                {
+                  "VarTransformation": "white"
+                },
+                {
+                  "VarTransformation": "asian"
+                },
+                {
+                  "VarTransformation": "latino"
+                },
+                {
+                  "VarTransformation": "age"
+                },
+                {
+                  "VarTransformation": "female01"
+                },
+                {
+                  "VarTransformation": "education"
+                },
+                {
+                  "VarTransformation": "married"
+                },
+                {
+                  "VarTransformation": "fullem"
+                },
+                {
+                  "VarTransformation": "relig_imp"
+                },
+                {
+                  "VarTransformation": "church_atd"
+                },
+                {
+                  "VarTransformation": "pid"
+                },
+                {
+                  "VarTransformation": "pidDKNA01"
+                },
+                {
+                  "VarTransformation": "income_with_PNS"
+                },
+                {
+                  "VarTransformation": "PNS_income01"
+                },
+                {
+                  "VarTransformation": "Pop4Q"
+                }
+              ],
+              "StatisticalModel": "linear regression"
+            },
+            {
+              "DependentVariable": "court_dv",
+              "EvaluationMetric": "rms",
+              "Goal": "prediction",
+              "Name": "Table 3 Column 7",
+              "Predictors": [
+                {
+                  "VarTransformation": "pc_pol_rude"
+                },
+                {
+                  "VarTransformation": "pc_pol_unfair"
+                },
+                {
+                  "VarTransformation": "polnet_mn"
+                },
+                {
+                  "VarTransformation": "disc_count"
+                },
+                {
+                  "VarTransformation": "white"
+                },
+                {
+                  "VarTransformation": "asian"
+                },
+                {
+                  "VarTransformation": "latino"
+                },
+                {
+                  "VarTransformation": "age"
+                },
+                {
+                  "VarTransformation": "female01"
+                },
+                {
+                  "VarTransformation": "education"
+                },
+                {
+                  "VarTransformation": "married"
+                },
+                {
+                  "VarTransformation": "fullem"
+                },
+                {
+                  "VarTransformation": "relig_imp"
+                },
+                {
+                  "VarTransformation": "church_atd"
+                },
+                {
+                  "VarTransformation": "pid"
+                },
+                {
+                  "VarTransformation": "pidDKNA01"
+                },
+                {
+                  "VarTransformation": "income_with_PNS"
+                },
+                {
+                  "VarTransformation": "PNS_income01"
+                },
+                {
+                  "VarTransformation": "Pop4Q"
+                }
+              ],
+              "StatisticalModel": "linear regression"
+            },
+            {
+              "DependentVariable": "court_dv",
+              "EvaluationMetric": "rms",
+              "Goal": "prediction",
+              "Name": "Table 3 Column 8",
+              "Predictors": [
+                {
+                  "VarTransformation": "polnet_mn"
+                },
+                {
+                  "VarTransformation": "disc_count"
+                },
+                {
+                  "VarTransformation": "white"
+                },
+                {
+                  "VarTransformation": "asian"
+                },
+                {
+                  "VarTransformation": "latino"
+                },
+                {
+                  "VarTransformation": "age"
+                },
+                {
+                  "VarTransformation": "female01"
+                },
+                {
+                  "VarTransformation": "education"
+                },
+                {
+                  "VarTransformation": "married"
+                },
+                {
+                  "VarTransformation": "fullem"
+                },
+                {
+                  "VarTransformation": "relig_imp"
+                },
+                {
+                  "VarTransformation": "church_atd"
+                },
+                {
+                  "VarTransformation": "pid"
+                },
+                {
+                  "VarTransformation": "pidDKNA01"
+                },
+                {
+                  "VarTransformation": "income_with_PNS"
+                },
+                {
+                  "VarTransformation": "PNS_income01"
+                },
+                {
+                  "VarTransformation": "Pop4Q"
+                }
+              ],
+              "StatisticalModel": "linear regression"
+            },
+            {
+              "DependentVariable": "police_dv",
+              "EvaluationMetric": "rms",
+              "Goal": "prediction",
+              "Name": "Table 4 Column 1",
+              "Predictors": [
+                {
+                  "VarTransformation": "pc_pol_rude"
+                },
+                {
+                  "VarTransformation": "pc_pol_unfair"
+                },
+                {
+                  "VarTransformation": "pol_pos_mn"
+                },
+                {
+                  "VarTransformation": "pol_neg_mn"
+                },
+                {
+                  "VarTransformation": "disc_pos_pol"
+                },
+                {
+                  "VarTransformation": "disc_neg_pol"
+                },
+                {
+                  "VarTransformation": "disc_neut_pol"
+                },
+                {
+                  "VarTransformation": "white"
+                },
+                {
+                  "VarTransformation": "asian"
+                },
+                {
+                  "VarTransformation": "latino"
+                },
+                {
+                  "VarTransformation": "age"
+                },
+                {
+                  "VarTransformation": "female01"
+                },
+                {
+                  "VarTransformation": "education"
+                },
+                {
+                  "VarTransformation": "married"
+                },
+                {
+                  "VarTransformation": "fullem"
+                },
+                {
+                  "VarTransformation": "relig_imp"
+                },
+                {
+                  "VarTransformation": "church_atd"
+                },
+                {
+                  "VarTransformation": "pid"
+                },
+                {
+                  "VarTransformation": "pidDKNA01"
+                },
+                {
+                  "VarTransformation": "income_with_PNS"
+                },
+                {
+                  "VarTransformation": "PNS_income01"
+                },
+                {
+                  "VarTransformation": "Pop4Q"
+                }
+              ],
+              "StatisticalModel": "linear regression"
+            },
+            {
+              "DependentVariable": "court_dv",
+              "EvaluationMetric": "rms",
+              "Goal": "prediction",
+              "Name": "Table 4 Column 2",
+              "Predictors": [
+                {
+                  "VarTransformation": "pc_ct_rude"
+                },
+                {
+                  "VarTransformation": "pc_ct_unfair"
+                },
+                {
+                  "VarTransformation": "ct_pos_mn"
+                },
+                {
+                  "VarTransformation": "ct_neg_mn"
+                },
+                {
+                  "VarTransformation": "disc_pos_ct"
+                },
+                {
+                  "VarTransformation": "disc_neg_ct"
+                },
+                {
+                  "VarTransformation": "disc_neut_ct"
+                },
+                {
+                  "VarTransformation": "white"
+                },
+                {
+                  "VarTransformation": "asian"
+                },
+                {
+                  "VarTransformation": "latino"
+                },
+                {
+                  "VarTransformation": "age"
+                },
+                {
+                  "VarTransformation": "female01"
+                },
+                {
+                  "VarTransformation": "education"
+                },
+                {
+                  "VarTransformation": "married"
+                },
+                {
+                  "VarTransformation": "fullem"
+                },
+                {
+                  "VarTransformation": "relig_imp"
+                },
+                {
+                  "VarTransformation": "church_atd"
+                },
+                {
+                  "VarTransformation": "pid"
+                },
+                {
+                  "VarTransformation": "pidDKNA01"
+                },
+                {
+                  "VarTransformation": "income_with_PNS"
+                },
+                {
+                  "VarTransformation": "PNS_income01"
+                },
+                {
+                  "VarTransformation": "Pop4Q"
+                }
+              ],
+              "StatisticalModel": "linear regression"
+            },
+            {
+              "DependentVariable": "court_dv",
+              "EvaluationMetric": "rms",
+              "Goal": "prediction",
+              "Name": "Table 4 Column 2",
+              "Predictors": [
+                {
+                  "VarTransformation": "pc_ct_rude"
+                },
+                {
+                  "VarTransformation": "pc_ct_unfair"
+                },
+                {
+                  "VarTransformation": "ct_pos_mn"
+                },
+                {
+                  "VarTransformation": "ct_neg_mn"
+                },
+                {
+                  "VarTransformation": "disc_pos_ct"
+                },
+                {
+                  "VarTransformation": "disc_neg_ct"
+                },
+                {
+                  "VarTransformation": "disc_neut_ct"
+                },
+                {
+                  "VarTransformation": "white"
+                },
+                {
+                  "VarTransformation": "asian"
+                },
+                {
+                  "VarTransformation": "latino"
+                },
+                {
+                  "VarTransformation": "age"
+                },
+                {
+                  "VarTransformation": "female01"
+                },
+                {
+                  "VarTransformation": "education"
+                },
+                {
+                  "VarTransformation": "married"
+                },
+                {
+                  "VarTransformation": "fullem"
+                },
+                {
+                  "VarTransformation": "relig_imp"
+                },
+                {
+                  "VarTransformation": "church_atd"
+                },
+                {
+                  "VarTransformation": "pid"
+                },
+                {
+                  "VarTransformation": "pidDKNA01"
+                },
+                {
+                  "VarTransformation": "income_with_PNS"
+                },
+                {
+                  "VarTransformation": "PNS_income01"
+                },
+                {
+                  "VarTransformation": "Pop4Q"
+                }
+              ],
+              "StatisticalModel": "linear regression"
+            }
+          ],
+          "isSubset": false
+        }
+      ]
     }
   }
 }

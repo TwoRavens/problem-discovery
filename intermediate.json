@@ -1,0 +1,220 @@
+{
+  "/doi/abs/10.1111/ajps.12297": [
+    {
+      "filename": "ajpsdata.rda",
+      "dataframe": "data",
+      "weight": "data$weight",
+      "models": [
+        {
+          "Name": "Table 2 Column 1",
+          "DependentVariable": "polnet_mn_nz",
+          "EvaluationMetric": "rms",
+          "Goal": "prediction",
+          "Predictors": "white+asian+latino",
+          "StatisticalModel": "linear regression"
+        },
+        {
+          "Name": "Table 2 Column 2",
+          "DependentVariable": "polnet_mn_nz",
+          "EvaluationMetric": "rms",
+          "Goal": "prediction",
+          "Predictors": "white+asian+latino+age+female01+education+married+fullem+relig_imp+church_atd+pid+pidDKNA01+income_with_PNS+PNS_income01+Pop4Q+disc_count",
+          "StatisticalModel": "linear regression"
+        },
+        {
+          "Name": "Table 2 Column 3",
+          "DependentVariable": "polnet_mn_nz",
+          "EvaluationMetric": "rms",
+          "Goal": "prediction",
+          "Predictors": "white+asian+latino+age+female01+education+married+fullem+relig_imp+church_atd+pid+pidDKNA01+income_with_PNS+PNS_income01+Pop4Q+disc_count+pc_pol_rude+pc_pol_unfair",
+          "StatisticalModel": "linear regression"
+        },
+        {
+          "Name": "Table 2 Column 4",
+          "DependentVariable": "ctnet_mn_nz",
+          "EvaluationMetric": "rms",
+          "Goal": "prediction",
+          "Predictors": "white+asian+latino",
+          "StatisticalModel": "linear regression"
+        },
+        {
+          "Name": "Table 2 Column 5",
+          "DependentVariable": "ctnet_mn_nz",
+          "EvaluationMetric": "rms",
+          "Goal": "prediction",
+          "Predictors": "white+asian+latino+age+female01+education+married+fullem+relig_imp+church_atd+pid+pidDKNA01+income_with_PNS+PNS_income01+Pop4Q+disc_count",
+          "StatisticalModel": "linear regression"
+        },
+        {
+          "Name": "Table 2 Column 6",
+          "DependentVariable": "ctnet_mn_nz",
+          "EvaluationMetric": "rms",
+          "Goal": "prediction",
+          "Predictors": "white+asian+latino+age+female01+education+married+fullem+relig_imp+church_atd+pid+pidDKNA01+income_with_PNS+PNS_income01+Pop4Q+disc_count+pc_pol_rude+pc_pol_unfair",
+          "StatisticalModel": "linear regression"
+        },
+
+        {
+          "Name": "Table 3 Column 1",
+          "DependentVariable": "police_dv",
+          "EvaluationMetric": "rms",
+          "Goal": "prediction",
+          "Predictors": "pc_pol_rude+pc_pol_unfair+white+asian+latino+age+female01+education+married+fullem+relig_imp+church_atd+pid+pidDKNA01++income_with_PNS+PNS_income01+Pop4Q",
+          "StatisticalModel": "linear regression"
+        },
+        {
+          "Name": "Table 3 Column 2",
+          "DependentVariable": "police_dv",
+          "EvaluationMetric": "rms",
+          "Goal": "prediction",
+          "Predictors": "pc_pol_rude+pc_pol_unfair+polnet_mn+disc_count+white+asian+latino+age+female01+education+married+fullem+relig_imp+church_atd+pid+pidDKNA01+income_with_PNS+PNS_income01+Pop4Q",
+          "StatisticalModel": "linear regression"
+        },
+        {
+          "Name": "Table 3 Column 3",
+          "DependentVariable": "police_dv",
+          "EvaluationMetric": "rms",
+          "Goal": "prediction",
+          "Predictors": "pc_pol_rude+pc_pol_unfair+polnet_mn+disc_count+white+asian+latino+age+female01+education+married+fullem+relig_imp+church_atd+pid+pidDKNA01+income_with_PNS+PNS_income01+Pop4Q",
+          "StatisticalModel": "linear regression"
+        },
+        {
+          "Name": "Table 3 Column 4",
+          "DependentVariable": "police_dv",
+          "EvaluationMetric": "rms",
+          "Goal": "prediction",
+          "Predictors": "polnet_mn+disc_count+white+asian+latino+age+female01+education+married+fullem+relig_imp+church_atd+pid+pidDKNA01++income_with_PNS+PNS_income01+Pop4Q",
+          "StatisticalModel": "linear regression"
+        },
+        {
+          "Name": "Table 3 Column 5",
+          "DependentVariable": "court_dv",
+          "EvaluationMetric": "rms",
+          "Goal": "prediction",
+          "Predictors": "pc_pol_rude+pc_pol_unfair+white+asian+latino+age+female01+education+married+fullem+relig_imp+church_atd+pid+pidDKNA01++income_with_PNS+PNS_income01+Pop4Q",
+          "StatisticalModel": "linear regression"
+        },
+        {
+          "Name": "Table 3 Column 6",
+          "DependentVariable": "court_dv",
+          "EvaluationMetric": "rms",
+          "Goal": "prediction",
+          "Predictors": "pc_pol_rude+pc_pol_unfair+polnet_mn+disc_count+white+asian+latino+age+female01+education+married+fullem+relig_imp+church_atd+pid+pidDKNA01+income_with_PNS+PNS_income01+Pop4Q",
+          "StatisticalModel": "linear regression"
+        },
+        {
+          "Name": "Table 3 Column 7",
+          "DependentVariable": "court_dv",
+          "EvaluationMetric": "rms",
+          "Goal": "prediction",
+          "Predictors": "pc_pol_rude+pc_pol_unfair+polnet_mn+disc_count+white+asian+latino+age+female01+education+married+fullem+relig_imp+church_atd+pid+pidDKNA01+income_with_PNS+PNS_income01+Pop4Q",
+          "StatisticalModel": "linear regression"
+        },
+        {
+          "Name": "Table 3 Column 8",
+          "DependentVariable": "court_dv",
+          "EvaluationMetric": "rms",
+          "Goal": "prediction",
+          "Predictors": "polnet_mn+disc_count+white+asian+latino+age+female01+education+married+fullem+relig_imp+church_atd+pid+pidDKNA01++income_with_PNS+PNS_income01+Pop4Q",
+          "StatisticalModel": "linear regression"
+        },
+
+        {
+          "Name": "Table 4 Column 1",
+          "DependentVariable": "police_dv",
+          "EvaluationMetric": "rms",
+          "Goal": "prediction",
+          "Predictors": "pc_pol_rude+pc_pol_unfair+pol_pos_mn+pol_neg_mn+disc_pos_pol+disc_neg_pol+disc_neut_pol+white+asian+latino+age+female01+education+married+fullem+relig_imp+church_atd+pid+pidDKNA01+income_with_PNS+PNS_income01+Pop4Q",
+          "StatisticalModel": "linear regression"
+        },
+        {
+          "Name": "Table 4 Column 2",
+          "DependentVariable": "court_dv",
+          "EvaluationMetric": "rms",
+          "Goal": "prediction",
+          "Predictors": "pc_ct_rude+pc_ct_unfair+ct_pos_mn+ct_neg_mn++disc_pos_ct+disc_neg_ct+disc_neut_ct+white+asian+latino+age+female01+education+married+fullem+relig_imp+church_atd+pid+pidDKNA01+income_with_PNS+PNS_income01+Pop4Q",
+          "StatisticalModel": "linear regression"
+        },
+
+        {
+          "Name": "Table 4 Column 2",
+          "DependentVariable": "court_dv",
+          "EvaluationMetric": "rms",
+          "Goal": "prediction",
+          "Predictors": "pc_ct_rude+pc_ct_unfair+ct_pos_mn+ct_neg_mn++disc_pos_ct+disc_neg_ct+disc_neut_ct+white+asian+latino+age+female01+education+married+fullem+relig_imp+church_atd+pid+pidDKNA01+income_with_PNS+PNS_income01+Pop4Q",
+          "StatisticalModel": "linear regression"
+        }
+      ]
+    }
+  ],
+  "/doi/abs/10.1111/ajps.12298": [
+    {
+      "filename": "ck_cces2014.dta",
+      "models": [
+        {
+          "Name": "Table 1 Column 1",
+          "DependentVariable": "epabin",
+          "EvaluationMetric": "rms",
+          "Goal": "prediction",
+          "Predictors": "epaconst epapolicy gop5 dem5 male education age white globalwarmbin",
+          "StatisticalModel": "logistic regression"
+        },
+        {
+          "Name": "Table 1 Column 2",
+          "DependentVariable": "epabin",
+          "EvaluationMetric": "rms",
+          "Goal": "prediction",
+          "Predictors": "epabin epaconst epapolicy epaconst*globalwarmbin epapolicy*globalwarmbin gop5 dem5 male education age white globalwarmbin",
+          "StatisticalModel": "logistic regression"
+        }
+      ]
+    },
+    {
+      "filename": "ck_yougov1.dta",
+      "models": [
+        {
+          "Name": "Table 2 Column 1",
+          "DependentVariable": "isisbin",
+          "EvaluationMetric": "rms",
+          "Goal": "prediction",
+          "Predictors": "isiscongopp gop5 dem5 male education age white",
+          "StatisticalModel": "logistic regression"
+        },
+        {
+          "Name": "Table 2 Column 2",
+          "DependentVariable": "loansbin",
+          "EvaluationMetric": "rms",
+          "Goal": "prediction",
+          "Predictors": "loanscongopp gop5 dem5 male education age white",
+          "StatisticalModel": "logistic regression"
+        }
+      ]
+    },
+    {
+      "filename": "ck_yougov2.dta",
+      "models": [
+        {
+          "Name": "Table 3 Column 1",
+          "DependentVariable": "isissupport",
+          "EvaluationMetric": "rms",
+          "Goal": "prediction",
+          "Predictors": "isiscongshort isislawprof isismedia isiscongboth dem5 gop5 education age white",
+          "StatisticalModel": "logistic regression"
+        }
+      ]
+    },
+    {
+      "filename": "ck_yougov3.dta",
+      "models": [
+        {
+          "Name": "Table 3 Column 1",
+          "DependentVariable": "epasuppbin",
+          "EvaluationMetric": "rms",
+          "Goal": "prediction",
+          "Predictors": "epagop epadem gop5 dem5 male education age white",
+          "StatisticalModel": "logistic regression"
+        }
+      ]
+    }
+  ]
+}
