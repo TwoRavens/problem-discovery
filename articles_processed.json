@@ -1,0 +1,709 @@
+{
+  "2017": {
+    "/doi/abs/10.1111/ajps.12298": {
+      "attributes": {
+        "issue": "/toc/15405907/2017/61/4",
+        "title": "Mobilizing the Public Against the President: Congress and the Political Costs of Unilateral Action",
+        "authors": [
+          {
+            "name": "Dino P. Christenson",
+            "url": "https://onlinelibrary.wiley.com/action/doSearch?ContribAuthorStored=Christenson%2C+Dino+P"
+          },
+          {
+            "name": "Douglas L. Kriner",
+            "url": "https://onlinelibrary.wiley.com/action/doSearch?ContribAuthorStored=Kriner%2C+Douglas+L"
+          }
+        ],
+        "publish_date": "08 March 2017",
+        "full_text": "https://onlinelibrary-wiley-com.libproxy.utdallas.edu/doi/full/10.1111/ajps.12298"
+      },
+      "data": [
+        {
+          "Columns": [
+            {
+              "ColName": "V101"
+            },
+            {
+              "ColName": "BOS323_treat"
+            },
+            {
+              "ColName": "BOS301"
+            },
+            {
+              "ColName": "BOS323"
+            },
+            {
+              "ColName": "CurrentGovParty"
+            },
+            {
+              "ColName": "CurrentHouseParty"
+            },
+            {
+              "ColName": "CurrentSen1Party"
+            },
+            {
+              "ColName": "CurrentSen2Party"
+            },
+            {
+              "ColName": "gender"
+            },
+            {
+              "ColName": "educ"
+            },
+            {
+              "ColName": "race"
+            },
+            {
+              "ColName": "CC14_308a"
+            },
+            {
+              "ColName": "CC14_309a"
+            },
+            {
+              "ColName": "CC14_309b"
+            },
+            {
+              "ColName": "CC14_310a"
+            },
+            {
+              "ColName": "CC14_310b"
+            },
+            {
+              "ColName": "CC14_310c"
+            },
+            {
+              "ColName": "CC14_310d"
+            },
+            {
+              "ColName": "pid3"
+            },
+            {
+              "ColName": "pid7"
+            },
+            {
+              "ColName": "faminc"
+            },
+            {
+              "ColName": "birthyr"
+            },
+            {
+              "ColName": "dem3"
+            },
+            {
+              "ColName": "dem5"
+            },
+            {
+              "ColName": "gop3"
+            },
+            {
+              "ColName": "gop5"
+            },
+            {
+              "ColName": "education"
+            },
+            {
+              "ColName": "male"
+            },
+            {
+              "ColName": "age"
+            },
+            {
+              "ColName": "white"
+            },
+            {
+              "ColName": "black"
+            },
+            {
+              "ColName": "latino"
+            },
+            {
+              "ColName": "globalwarmbin"
+            },
+            {
+              "ColName": "epa"
+            },
+            {
+              "ColName": "epabin"
+            },
+            {
+              "ColName": "epaconst"
+            },
+            {
+              "ColName": "epapolicy"
+            },
+            {
+              "ColName": "epaconstxglobalwarmbin"
+            },
+            {
+              "ColName": "epapolicyxglobalwarmbin"
+            }
+          ],
+          "Dimensions": {
+            "ColumnCount": 39,
+            "RowCount": 1000
+          },
+          "FileName": "ck_cces2014",
+          "FileType": "dta",
+          "Models": [
+            {
+              "DependentVariable": "epabin",
+              "EvaluationMetric": "rms",
+              "Goal": "prediction",
+              "Name": "Table 1 Column 1",
+              "Predictors": [
+                {
+                  "VarTransformation": "epaconst"
+                },
+                {
+                  "VarTransformation": "epapolicy"
+                },
+                {
+                  "VarTransformation": "gop5"
+                },
+                {
+                  "VarTransformation": "dem5"
+                },
+                {
+                  "VarTransformation": "male"
+                },
+                {
+                  "VarTransformation": "education"
+                },
+                {
+                  "VarTransformation": "age"
+                },
+                {
+                  "VarTransformation": "white"
+                },
+                {
+                  "VarTransformation": "globalwarmbin"
+                }
+              ],
+              "StatisticalModel": "logistic regression"
+            },
+            {
+              "DependentVariable": "epabin",
+              "EvaluationMetric": "rms",
+              "Goal": "prediction",
+              "Name": "Table 1 Column 2",
+              "Predictors": [
+                {
+                  "VarTransformation": "epabin"
+                },
+                {
+                  "VarTransformation": "epaconst"
+                },
+                {
+                  "VarTransformation": "epapolicy"
+                },
+                {
+                  "VarTransformation": "epaconst*globalwarmbin"
+                },
+                {
+                  "VarTransformation": "epapolicy*globalwarmbin"
+                },
+                {
+                  "VarTransformation": "gop5"
+                },
+                {
+                  "VarTransformation": "dem5"
+                },
+                {
+                  "VarTransformation": "male"
+                },
+                {
+                  "VarTransformation": "education"
+                },
+                {
+                  "VarTransformation": "age"
+                },
+                {
+                  "VarTransformation": "white"
+                },
+                {
+                  "VarTransformation": "globalwarmbin"
+                }
+              ],
+              "StatisticalModel": "logistic regression"
+            }
+          ],
+          "isSubset": false
+        },
+        {
+          "Columns": [
+            {
+              "ColName": "caseid"
+            },
+            {
+              "ColName": "rand_204"
+            },
+            {
+              "ColName": "bos204"
+            },
+            {
+              "ColName": "gender"
+            },
+            {
+              "ColName": "race"
+            },
+            {
+              "ColName": "educ"
+            },
+            {
+              "ColName": "birthyr"
+            },
+            {
+              "ColName": "faminc"
+            },
+            {
+              "ColName": "pid3"
+            },
+            {
+              "ColName": "pid7"
+            },
+            {
+              "ColName": "starttim"
+            },
+            {
+              "ColName": "endtime"
+            },
+            {
+              "ColName": "white"
+            },
+            {
+              "ColName": "latino"
+            },
+            {
+              "ColName": "education"
+            },
+            {
+              "ColName": "age"
+            },
+            {
+              "ColName": "male"
+            },
+            {
+              "ColName": "dem3"
+            },
+            {
+              "ColName": "dem5"
+            },
+            {
+              "ColName": "gop3"
+            },
+            {
+              "ColName": "gop5"
+            },
+            {
+              "ColName": "isis"
+            },
+            {
+              "ColName": "isisbin"
+            },
+            {
+              "ColName": "isiscongopp"
+            },
+            {
+              "ColName": "loans"
+            },
+            {
+              "ColName": "loansbin"
+            },
+            {
+              "ColName": "loanscongopp"
+            },
+            {
+              "ColName": "isiscongoppxdem5"
+            },
+            {
+              "ColName": "isiscongoppxgop5"
+            },
+            {
+              "ColName": "loanscongoppxdem5"
+            },
+            {
+              "ColName": "loanscongoppx5"
+            },
+            {
+              "ColName": "ind5"
+            },
+            {
+              "ColName": "isiscongoppxind5"
+            },
+            {
+              "ColName": "loanscongoppxgop5"
+            },
+            {
+              "ColName": "loanscongoppxind5"
+            },
+            {
+              "ColName": "black"
+            }
+          ],
+          "Dimensions": {
+            "ColumnCount": 36,
+            "RowCount": 1000
+          },
+          "FileName": "ck_yougov1",
+          "FileType": "dta",
+          "Models": [
+            {
+              "DependentVariable": "isisbin",
+              "EvaluationMetric": "rms",
+              "Goal": "prediction",
+              "Name": "Table 2 Column 1",
+              "Predictors": [
+                {
+                  "VarTransformation": "isiscongopp"
+                },
+                {
+                  "VarTransformation": "gop5"
+                },
+                {
+                  "VarTransformation": "dem5"
+                },
+                {
+                  "VarTransformation": "male"
+                },
+                {
+                  "VarTransformation": "education"
+                },
+                {
+                  "VarTransformation": "age"
+                },
+                {
+                  "VarTransformation": "white"
+                }
+              ],
+              "StatisticalModel": "logistic regression"
+            },
+            {
+              "DependentVariable": "loansbin",
+              "EvaluationMetric": "rms",
+              "Goal": "prediction",
+              "Name": "Table 2 Column 2",
+              "Predictors": [
+                {
+                  "VarTransformation": "loanscongopp"
+                },
+                {
+                  "VarTransformation": "gop5"
+                },
+                {
+                  "VarTransformation": "dem5"
+                },
+                {
+                  "VarTransformation": "male"
+                },
+                {
+                  "VarTransformation": "education"
+                },
+                {
+                  "VarTransformation": "age"
+                },
+                {
+                  "VarTransformation": "white"
+                }
+              ],
+              "StatisticalModel": "logistic regression"
+            }
+          ],
+          "isSubset": false
+        },
+        {
+          "Columns": [
+            {
+              "ColName": "caseid"
+            },
+            {
+              "ColName": "BOS202_rand"
+            },
+            {
+              "ColName": "BOS202"
+            },
+            {
+              "ColName": "birthyr"
+            },
+            {
+              "ColName": "gender"
+            },
+            {
+              "ColName": "race"
+            },
+            {
+              "ColName": "educ"
+            },
+            {
+              "ColName": "faminc"
+            },
+            {
+              "ColName": "pid3"
+            },
+            {
+              "ColName": "pid3_t"
+            },
+            {
+              "ColName": "pid7"
+            },
+            {
+              "ColName": "starttime"
+            },
+            {
+              "ColName": "endtime"
+            },
+            {
+              "ColName": "white"
+            },
+            {
+              "ColName": "education"
+            },
+            {
+              "ColName": "age"
+            },
+            {
+              "ColName": "male"
+            },
+            {
+              "ColName": "black"
+            },
+            {
+              "ColName": "latino"
+            },
+            {
+              "ColName": "dem3"
+            },
+            {
+              "ColName": "dem5"
+            },
+            {
+              "ColName": "gop3"
+            },
+            {
+              "ColName": "gop5"
+            },
+            {
+              "ColName": "ind5"
+            },
+            {
+              "ColName": "isissupport"
+            },
+            {
+              "ColName": "isiscontrol"
+            },
+            {
+              "ColName": "isiscongboth"
+            },
+            {
+              "ColName": "isislawprof"
+            },
+            {
+              "ColName": "isismedia"
+            },
+            {
+              "ColName": "isiscongshort"
+            },
+            {
+              "ColName": "isiscongshortxdem5"
+            },
+            {
+              "ColName": "isislawprofxdem5"
+            },
+            {
+              "ColName": "isismediaxdem5"
+            },
+            {
+              "ColName": "isiscongbothxdem5"
+            },
+            {
+              "ColName": "isis"
+            }
+          ],
+          "Dimensions": {
+            "ColumnCount": 35,
+            "RowCount": 1000
+          },
+          "FileName": "ck_yougov2",
+          "FileType": "dta",
+          "Models": [
+            {
+              "DependentVariable": "isissupport",
+              "EvaluationMetric": "rms",
+              "Goal": "prediction",
+              "Name": "Table 3 Column 1",
+              "Predictors": [
+                {
+                  "VarTransformation": "isiscongshort"
+                },
+                {
+                  "VarTransformation": "isislawprof"
+                },
+                {
+                  "VarTransformation": "isismedia"
+                },
+                {
+                  "VarTransformation": "isiscongboth"
+                },
+                {
+                  "VarTransformation": "dem5"
+                },
+                {
+                  "VarTransformation": "gop5"
+                },
+                {
+                  "VarTransformation": "education"
+                },
+                {
+                  "VarTransformation": "age"
+                },
+                {
+                  "VarTransformation": "white"
+                }
+              ],
+              "StatisticalModel": "logistic regression"
+            }
+          ],
+          "isSubset": false
+        },
+        {
+          "Columns": [
+            {
+              "ColName": "caseid"
+            },
+            {
+              "ColName": "rand_104"
+            },
+            {
+              "ColName": "bos104"
+            },
+            {
+              "ColName": "gender"
+            },
+            {
+              "ColName": "race"
+            },
+            {
+              "ColName": "educ"
+            },
+            {
+              "ColName": "birthyr"
+            },
+            {
+              "ColName": "faminc"
+            },
+            {
+              "ColName": "pid3"
+            },
+            {
+              "ColName": "pid7"
+            },
+            {
+              "ColName": "starttim"
+            },
+            {
+              "ColName": "endtime"
+            },
+            {
+              "ColName": "epasupp"
+            },
+            {
+              "ColName": "epasuppbin"
+            },
+            {
+              "ColName": "epacontrol"
+            },
+            {
+              "ColName": "epagop"
+            },
+            {
+              "ColName": "epadem"
+            },
+            {
+              "ColName": "white"
+            },
+            {
+              "ColName": "education"
+            },
+            {
+              "ColName": "age"
+            },
+            {
+              "ColName": "male"
+            },
+            {
+              "ColName": "dem3"
+            },
+            {
+              "ColName": "dem5"
+            },
+            {
+              "ColName": "gop3"
+            },
+            {
+              "ColName": "gop5"
+            },
+            {
+              "ColName": "epagopxgop5"
+            },
+            {
+              "ColName": "epagopxdem5"
+            },
+            {
+              "ColName": "epademxgop5"
+            },
+            {
+              "ColName": "epademxdem5"
+            },
+            {
+              "ColName": "black"
+            },
+            {
+              "ColName": "latino"
+            }
+          ],
+          "Dimensions": {
+            "ColumnCount": 31,
+            "RowCount": 1000
+          },
+          "FileName": "ck_yougov3",
+          "FileType": "dta",
+          "Models": [
+            {
+              "DependentVariable": "epasuppbin",
+              "EvaluationMetric": "rms",
+              "Goal": "prediction",
+              "Name": "Table 3 Column 1",
+              "Predictors": [
+                {
+                  "VarTransformation": "epagop"
+                },
+                {
+                  "VarTransformation": "epadem"
+                },
+                {
+                  "VarTransformation": "gop5"
+                },
+                {
+                  "VarTransformation": "dem5"
+                },
+                {
+                  "VarTransformation": "male"
+                },
+                {
+                  "VarTransformation": "education"
+                },
+                {
+                  "VarTransformation": "age"
+                },
+                {
+                  "VarTransformation": "white"
+                }
+              ],
+              "StatisticalModel": "logistic regression"
+            }
+          ],
+          "isSubset": false
+        }
+      ]
+    }
+  }
+}
